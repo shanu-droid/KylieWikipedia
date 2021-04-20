@@ -1,0 +1,88 @@
+body{
+    background-color: crimson;
+}
+h1{
+    background-color: black;
+    color: rgb(222, 222, 230);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 50px;
+    border-radius: 10px;
+    text-decoration: underline ;
+}
+img{
+    height: 400px;
+    width: 300px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+.x{
+    background-color: gray;
+    color: black;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    position: absolute;
+    right: 50%;
+}
+.y{
+    background-color: gray;
+    color: black;
+    margin-left: 100px;  
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    right: 50%;
+}
+.z{
+    background-color: gray;
+    color: black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    padding-left: 150px;
+    padding-right: 80px;
+    border-radius: 10px;
+   
+}
+p{
+    margin-left: 500px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    color:black;
+    font-size: 18px;
+}
+h3{
+    color: black;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
